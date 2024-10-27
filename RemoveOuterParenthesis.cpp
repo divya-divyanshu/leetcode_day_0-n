@@ -6,10 +6,9 @@ public:
 
         vector<char> temp;
         stack<char> st;
-        vector<char> ans;
 
         for(int i = 0; i < s.length(); i++){
-            
+
             if (s[i] == '(') {
                 if (st.size() > 0) temp.push_back('(');
                 st.push('(');
@@ -23,14 +22,15 @@ public:
             }
         }
 
-        if (temp.size() != 0){
-                for (int i = 0; i < temp.size(); i++){
-                    ans.push_back(temp[i]);
-                }
-        }
+        s.clear();
+        s.resize(temp.size());
 
-        string anss(ans.begin(), ans.end());
-        return anss;
+        if (temp.size() != 0){
+            for (int i = 0; i < temp.size(); i++){
+                s[i] = temp[i];
+            }
+        }
         
+        return s;
     }
 };
