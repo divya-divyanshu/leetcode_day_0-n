@@ -1,4 +1,4 @@
-lass Solution {
+class Solution {
   public:
     int largest(vector<int> &arr) {
         int maxi = 0;
