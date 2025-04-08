@@ -61,7 +61,7 @@ int main() {
             for (int j = 0; j < 3; ++j) {
                 int x;
                 cin >> x;
-                temp.push_back(x);
+                temp.push_back(x);  
             }
             arr.push_back(temp);
         }

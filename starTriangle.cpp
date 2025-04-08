@@ -4,7 +4,7 @@ void nStarTriangle(int n) {
         for (int k = 1; k <= n-i; k++){
             cout<<" ";
         }
-        // star
+        // starc
         for (int star = 1; star <= i*2 -1; star++){
             cout<<"*";
         }

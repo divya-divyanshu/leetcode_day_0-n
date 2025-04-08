@@ -17,9 +17,9 @@ public:
             l--;
             sum = sum - cardPoints[l] + cardPoints[r];
             maxi = max(maxi, sum);
-        }
+        }                                                                                               
 
-        return maxi;
+        return maxi
 
     }
 };

@@ -7,5 +7,5 @@ public:
             if (s[i] != t[i]) return t[i];
         }
         return t[t.size()-1];
-    }
+    }code 
 };
